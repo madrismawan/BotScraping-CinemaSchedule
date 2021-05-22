@@ -1,4 +1,4 @@
-telebot==0.0.4
+pyTelegramBotAPI==3.7.7
 DateTime==4.3
 mysql-connector==2.2.9
 
