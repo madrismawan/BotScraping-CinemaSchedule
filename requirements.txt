@@ -1,4 +1,4 @@
-telebott==0.0.4
+telebot==0.0.4
 DateTime==4.3
 mysql-connector==2.2.9
 
