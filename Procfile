@@ -1,1 +1,1 @@
-web: python telebot-v3.py
+worker: python telebot-v3.py
