@@ -118,10 +118,10 @@ import mysql.connector
 
 ##Koneksi Database
 mydb = mysql.connector.connect(
-      host="localhost",
-      user="root",
-      password="",
-      database="db-bioskop"
+      host="us-cdbr-east-03.cleardb.com",
+      user="b86bf40d7a0a5e",
+      password="5b88fc4d",
+      database="heroku_116ec58047c2dc4"
     )
 
 
