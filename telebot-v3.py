@@ -117,12 +117,7 @@ import mysql.connector
 
 
 ##Koneksi Database
-mydb = mysql.connector.connect(
-      host="us-cdbr-east-03.cleardb.com",
-      user="b86bf40d7a0a5e",
-      password="5b88fc4d",
-      database="heroku_116ec58047c2dc4"
-    )
+
 
 
 # In[12]:
@@ -135,6 +130,12 @@ parseTimeDatabase()
 
 
 def cinepolis(call):
+    mydb = mysql.connector.connect(
+      host="us-cdbr-east-03.cleardb.com",
+      user="b86bf40d7a0a5e",
+      password="5b88fc4d",
+      database="heroku_116ec58047c2dc4"
+    )
     mycursor = mydb.cursor()
     sql = "SELECT * FROM cinepolis WHERE tanggal=%s"
     adr = (parseTimeDatabase(), )
