@@ -1,1 +1,1 @@
-worker: python fix-scraping-cinepolis-api.py
+worker: python fix-scraping-21cineplex.py
