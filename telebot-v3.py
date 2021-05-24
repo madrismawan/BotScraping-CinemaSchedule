@@ -125,9 +125,9 @@ def upcoming(call):
         director =  x[5]
         actor =   x[6]
         listJadwal = listJadwal+'\n' + 'Judul    : '+judul+'\n'+'Katagori : '+katagori+'\n'+'Durasi   :'+waktu+'\n'+'Tahun    : '+tahun+'\n'+'Director : "'+director+'\n'
-    testing = datetime.now()
-    timestampStr = testing.strftime("%d-%b-%Y (%H:%M:%S.%f)")
-    pesan = '==> Jadwal Bioskop Tanggal '+timestampStr+' di Cinepolis<==\n'+listJadwal
+#     testing = datetime.now()
+#     timestampStr = testing.strftime("%d-%b-%Y (%H:%M:%S.%f)")
+    pesan = '==> Jadwal Bioskop Tanggal '+parseTime()+' di Cinepolis<==\n'+listJadwal
     bot.send_message(chat_id=call.message.chat.id,text=pesan)
 
 
