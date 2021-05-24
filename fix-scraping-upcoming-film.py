@@ -125,7 +125,7 @@ def main(data):
 import schedule
 import time
 
-schedule.every().day.at("02:40").do(main,data)
+schedule.every().day.at("02:50").do(main,data)
 
 while True:
     schedule.run_pending()
