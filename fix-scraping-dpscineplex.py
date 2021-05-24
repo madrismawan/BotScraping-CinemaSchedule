@@ -94,7 +94,7 @@ def scrapingData(allData):
 import schedule
 import time
 
-schedule.every().day.at("09:00").do(main)
+schedule.every().day.at("02:00").do(main)
 
 while True:
     schedule.run_pending()
